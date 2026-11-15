@@ -1,0 +1,19 @@
+# Build outputs (Yocto/AGL)
+build*/
+downloads/
+sstate-cache/
+tmp/
+*.wic
+*.img
+*.ext4
+# Vehicle dumps/firmware never committed
+firmware/
+dumps/
+# Editors/OS
+.vscode/
+*.swp
+.DS_Store
+
+# Local, host-specific notes
+CLAUDE.local.md
+.claude/
